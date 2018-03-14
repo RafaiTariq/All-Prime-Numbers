@@ -1,23 +1,22 @@
 
     Sub Main()
-
-        ' local variable definition 
+ 
         Dim i, j, n As Integer
+        
         Console.Write("Enter a number: ")
         n = Console.ReadLine
         Console.WriteLine("all prime numbers until " & n)
+        
         For i = 1 To n
             For j = 2 To i
-                ' if factor found, not prime
                 If ((i Mod j) = 0) Then
                     Exit For
                 End If
             Next j
-
             If (j > (i \ j)) Then
-
                 Console.WriteLine("{0}", i)
             End If
         Next i
-        Console.ReadLine()
+        Console.ReadKey()
+        
     End Sub
