@@ -14,7 +14,7 @@
                 End If
             Next j
             If (j > (i \ j)) Then
-                Console.WriteLine("{0}", i)
+                Console.WriteLine("" & i)
             End If
         Next i
         Console.ReadKey()
