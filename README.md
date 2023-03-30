@@ -1,2 +1,2 @@
 # All-Prime-Numbers
-This VB code lists all the primr numbers until the entered value
+This VB code lists all the prime numbers until the entered value
